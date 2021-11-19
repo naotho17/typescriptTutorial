@@ -3,7 +3,9 @@
         "./src/**/*"
     ],
     "compilerOptions": {
-        // "strict": true,
+        "strict": true,
+        // ↓暗黙Anyのルールをオフに出来る設定
+        "noImplicitAny": false,
         "esModuleInterop": true,
         "lib": [
             "dom",
